@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        <div id="product">
+            <div id="left">
+                <img id="image" src="shoe.png" alt="">
+            </div>
+            <div id="right">
+                <div>
+                <span id="airmax">Airmax</span>
+                </div>
+                <div>
+                <span id="wc">Winter Collection</span>
+                </div>
+                <div>    
+                <span id="mb">Men Black Sneakers</span>
+                </div>
+                <div>
+                    <span id="rate">150 <strike style="color: red;">200</strike></span>
+                </div>
+                <div>
+                    <span id="size">size 7 8 9 10 11</span>
+                </div>
+                <div style="display: flex;gap: 30px;">
+                    <div id="color">Color</div>
+                        <div id="red"></div>
+                        <div id="blue"></div>
+                        <div id="yellow"></div>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #root{
+            height: 700px;
+            width: 900px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url("bg.png");
+        }
+        #product{
+            height: 600px;
+            width: 800px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #left{
+            height: 600px;
+            width: 450px;
+            
+            border-radius: 0% 50% 50% 0%;
+            background-color: rgb(223, 103, 60);
+        }
+        #right{
+            height: 600px;
+            width: 350px;
+            
+
+        }
+        #airmax{
+            font-style: oblique;
+            font-size: 40px;
+            position: relative;
+            left: 40px;
+            top: 20px;
+            color: white;
+        }
+        #wc{
+            position: relative;
+            font-size: 20px;
+            
+            left: 30px;
+            top: 200px;
+            color: white;
+        }
+        #mb{
+            position: relative;
+            font-size: 30px;
+            
+            left: 30px;
+            top: 220px;
+            color: white; 
+
+        }
+        #rate{
+            position: relative;
+            font-size: 20px;
+            
+            left: 30px;
+            top: 230px;
+            color: white;
+        }
+        #size{
+            position: relative;
+            font-size: 20px;
+            
+            left: 30px;
+            top: 250px;
+            color: white;
+        }
+        #color{
+            position: relative;
+            left: 30px;
+            top: 260px;
+            color: white;
+
+            
+            
+            
+
+        }
+        #red{
+            position: relative;
+            left: 30px;
+            top: 260px;
+            height: 20px;
+            width: 20px;
+            background-color: red;
+            border-radius: 50%;
+            
+        }
+        #blue{
+            position: relative;
+            left: 30px;
+            top: 260px;
+            height: 20px;
+            width: 20px;
+            background-color: blue;
+            border-radius: 50%;
+
+        }
+        #yellow{
+            position: relative;
+            left: 30px;
+            top: 260px;
+            height: 20px;
+            width: 20px;
+            background-color: yellow;
+            border-radius: 50%;
+
+        }
+        #image{
+            position: relative;
+            top: 150px;
+            left: -90px;
+            width: 130%;
+        }
+
+    </style>
+    
+</body>
+</html>
